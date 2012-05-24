@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, WallStylingActivity!</string>
+    <string name="app_name">WallStyling</string>
+    <string name="paint_activity">Painting</string>
+    <string name="shaking_activity">Shaking</string>
+    <string name="opengl_activity">Open GL</string>
+
+</resources>
