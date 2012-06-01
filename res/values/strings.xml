@@ -6,5 +6,6 @@
     <string name="paint_activity">Painting</string>
     <string name="shaking_activity">Shaking</string>
     <string name="opengl_activity">Open GL</string>
+    <string name="white">#FFFFFF</string>
 
 </resources>

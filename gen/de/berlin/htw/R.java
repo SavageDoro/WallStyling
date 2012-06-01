@@ -15,6 +15,7 @@ public final class R {
         public static final int paint=0x7f020001;
     }
     public static final class id {
+        public static final int frameLayout1=0x7f050004;
         public static final int opengl_btn=0x7f050003;
         public static final int paint_btn=0x7f050002;
         public static final int shake_btn=0x7f050001;
@@ -32,5 +33,6 @@ public final class R {
         public static final int opengl_activity=0x7f040004;
         public static final int paint_activity=0x7f040002;
         public static final int shaking_activity=0x7f040003;
+        public static final int white=0x7f040005;
     }
 }

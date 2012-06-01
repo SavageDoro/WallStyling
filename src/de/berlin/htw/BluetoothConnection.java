@@ -1,13 +1,13 @@
 package de.berlin.htw;
 
-import de.berlin.htw.helper.OpenGLRenderer;
+import de.berlin.htw.helper.*;
 import android.app.Activity;
 import android.opengl.GLSurfaceView;
 import android.os.Bundle;
 import android.view.Window;
 import android.view.WindowManager;
 
-public class OpenGLActivity extends Activity {
+public class BluetoothConnection extends Activity {
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -19,7 +19,7 @@ public class OpenGLActivity extends Activity {
 		
 	      //all for the view and the Render		
 		GLSurfaceView view = new GLSurfaceView(this); // SurfaceView speziell für opengl anwendungen
-		view.setRenderer(new OpenGLRenderer()); //extra class
+		//view.setRenderer(new Bluetooth()); //extra class
 		setContentView(view);
 	}
 

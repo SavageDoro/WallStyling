@@ -16,9 +16,9 @@ public class WallStylingActivity extends Activity {
         super.onCreate(savedInstanceState); // onCreate = Callback Methode - hier findet Initialisierung der Activity statt
         setContentView(R.layout.wallstyling); // wichtig dafür der passende View
         
-        Button paint = (Button) findViewById(R.id.paint_btn);
+        Button paintButton = (Button) findViewById(R.id.paint_btn);
     	final  Intent intent = new Intent(this, de.berlin.htw.PaintActivity.class);
-		paint.setOnClickListener(new View.OnClickListener() {
+		paintButton.setOnClickListener(new View.OnClickListener() {
 			public void onClick(View paint) {
 				startActivity(intent);
 			}
@@ -33,7 +33,7 @@ public class WallStylingActivity extends Activity {
         });
         
         Button openGL = (Button) findViewById(R.id.opengl_btn);
-		final  Intent intent3 = new Intent(this, de.berlin.htw.OpenGLActivity.class);
+		final  Intent intent3 = new Intent(this, de.berlin.htw.BluetoothConnection.class);
         openGL.setOnClickListener(new View.OnClickListener() {
           public void onClick(View main) {	
             startActivity(intent3);
